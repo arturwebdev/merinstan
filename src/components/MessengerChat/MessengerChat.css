@@ -1,0 +1,49 @@
+.MessengerChat{
+	min-width: 100%;
+	min-height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	flex-direction: column;
+	padding: 20px 20px;
+}
+
+.Chat {
+	height: 80%;
+	overflow: auto;
+}
+
+.message-chat__item {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.message-chat__item:last-child {
+	margin-bottom: 0;
+}
+
+.message-chat__item p {
+	color: #FFF;
+	max-width: 400px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #8a2be2;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.from-current-user {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.from-current-user p {
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #341255;
+}

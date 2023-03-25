@@ -1,0 +1,84 @@
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+    background: #23104A;
+    height: 100vh;
+}
+
+.form__cont {
+    width: 100%;
+    padding: 20px 20px;
+    background: #23104A;
+}
+
+.form__cont h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.form__cont form {
+    width: 100%;
+    max-width: 744px;
+    margin: 0 auto;
+}
+
+.form__cont form label {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form__cont form label:last-child {
+    margin-top: 30px;
+}
+
+.form__cont form input[type="text"] {
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 0 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.form__cont form input[type="submit"] {
+    width: 100%;
+    height: 60px;
+    background: #FAFAFA;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #23104A;
+    cursor: pointer;
+}
+
+.form__cont .toogleFormlink {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #FFFFFF;
+    text-decoration: unset;
+}
